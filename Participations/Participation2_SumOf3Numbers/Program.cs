@@ -6,26 +6,30 @@ namespace Participation2_SumOf3Numbers
     {
         const double LUCKY_NUMBER = 7.777;
         static void Main(string[] args)
+
+            
         {
+            double numOne = 0;
+            double numTwo = 0;
+            double numThree = 0;
+
             Console.WriteLine("Pick a number. >>");
-            string response1 = Console.ReadLine();
-            double numOne = Convert.ToDouble(response1);
+            numOne = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Pick another number. >>");
-            String response2 = Console.ReadLine();
-            double numTwo = Convert.ToDouble(response2);
+            numTwo = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Pick another number. >>");
-            String response3 = Console.ReadLine();
-            double numThree = Convert.ToDouble(response3);
+            numThree = Convert.ToDouble(Console.ReadLine());
 
             double sum = (numOne + numTwo + numThree);
 
             Console.WriteLine("The sum of your three numbers is" + " " + sum.ToString("N3"));
+            Console.ReadLine();
 
-            double multiplier = (sum * LUCKY_NUMBER);
+            double product = (sum * LUCKY_NUMBER);
 
-            Console.WriteLine("the sum of your three numbers multiplied by the constant 7.777 is" + " " + multiplier.ToString("N3"));
+            Console.WriteLine("the sum of your three numbers multiplied by the constant 7.777 is" + " " + product.ToString("N3"));
             Console.ReadLine();
 
         }
