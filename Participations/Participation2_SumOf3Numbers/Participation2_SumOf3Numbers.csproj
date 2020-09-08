@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\Izzie Muirhead\source\repos\MIS-3013\Participations\SumOf3Numbers_IsabelleMuirhead.cs" Link="SumOf3Numbers_IsabelleMuirhead.cs" />
+  </ItemGroup>
+
 </Project>
