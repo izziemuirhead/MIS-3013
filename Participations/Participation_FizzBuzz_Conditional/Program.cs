@@ -18,7 +18,7 @@ namespace Participation_FizzBuzz_Conditional
                 Console.WriteLine("Buzz");
             }
 
-            else if (num % 3 == 0 || num % 5 == 0)
+            else if (num % 3 == 0 && num % 5 == 0)
             {
                 Console.WriteLine("FizzBuzz");
             }
