@@ -10,6 +10,33 @@ namespace Collections
     {
         static void Main(string[] args)
         {
+            List<string> favoriteThings = new List<string>();
+            string answer;
+
+
+            do
+            {
+                Console.WriteLine("Please enter one of your favorite things >>");
+                string favoriteThing = Console.ReadLine();
+
+                favoriteThings.Add(favoriteThing);
+
+                Console.WriteLine("Do you have another favorite thing to tell me >>");
+                answer = Console.ReadLine();
+
+            } while (answer.ToLower() == "yes");
+
+            Random rand = new Random();
+            int index = rand.Next(0, favoriteThings.Count);
+
+            Console.WriteLine(favoriteThings[index]);
+
+
+            Console.ReadKey();
+        }
+
+        static void DictionaryExample()
+        {
             Dictionary<int, double> studentGPAs = new Dictionary<int, double>();
 
 
@@ -42,9 +69,10 @@ namespace Collections
             {
                 Console.WriteLine("INVALID ID GOODBYE!");
             }
-         
+
 
             Console.ReadKey();
+
         }
 
         static void ArrayExample()
