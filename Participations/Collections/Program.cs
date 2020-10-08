@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace Collections
 {
@@ -25,10 +26,34 @@ namespace Collections
 
             } while (answer.ToLower() == "yes");
 
-            double maximum = 0;
-            double minimum = 0;
-            double average = 0;
+            double minimum = examGrades[0];
+            double maximum = examGrades[0];
+            double gradeSum = 0;
 
+            for (int i = 0; i < examGrades.Count; i++)
+            {
+                double examGrade = examGrades[i];
+
+                if (examGrade > minimum)
+                {
+                    minimum = examGrade;
+                }
+
+                if (examGrade < maximum)
+                {
+                    maximum = examGrade;
+                }
+
+                gradeSum = gradeSum + examGrades[i];
+
+            }
+
+            double gradeCount = examGrades.Count;
+            double average = gradeSum / gradeCount;
+
+            Console.WriteLine($"The minimum exam grade is {minimum}.");
+            Console.WriteLine($"The maximum exam grade is {maximum}.");
+            Console.WriteLine($"The average exam grade is {average}.");
 
             Console.ReadLine();
         }
