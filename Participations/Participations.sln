@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGuess", "RandomGuess\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{73D17A6F-A779-43C0-BFA1-41474083AFB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{AE54E2D2-EA25-44CD-A041-21B31066FF43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingCSVFile", "ProcessingCSVFile\ProcessingCSVFile.csproj", "{E76BDFC1-97EA-4161-A997-0E0973B50049}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{73D17A6F-A779-43C0-BFA1-41474083AFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73D17A6F-A779-43C0-BFA1-41474083AFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73D17A6F-A779-43C0-BFA1-41474083AFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE54E2D2-EA25-44CD-A041-21B31066FF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE54E2D2-EA25-44CD-A041-21B31066FF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE54E2D2-EA25-44CD-A041-21B31066FF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE54E2D2-EA25-44CD-A041-21B31066FF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76BDFC1-97EA-4161-A997-0E0973B50049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76BDFC1-97EA-4161-A997-0E0973B50049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76BDFC1-97EA-4161-A997-0E0973B50049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76BDFC1-97EA-4161-A997-0E0973B50049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

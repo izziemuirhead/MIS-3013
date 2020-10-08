@@ -10,6 +10,31 @@ namespace Collections
     {
         static void Main(string[] args)
         {
+            string filePath = @"";
+
+            string[] linesOfFile = File.ReadAllLines(filePath);
+            int i = 0;
+
+            foreach (var line in linesOfFile)
+            {
+                string[] pieces = line.Split(' ');
+
+                if (i % 15 == 0 && i != 0)
+                {
+                    Console.ReadKey();
+                }
+
+                Console.WriteLine(line);
+            }
+
+            Console.WriteLine(linesOfFile);
+
+            Console.ReadKey();
+            i++;
+        }
+
+        static void ListExample()
+        {
             List<string> favoriteThings = new List<string>();
             string answer;
 
@@ -33,6 +58,7 @@ namespace Collections
 
 
             Console.ReadKey();
+
         }
 
         static void DictionaryExample()
