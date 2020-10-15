@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FE6BA5B-78E4-48B8-AFC5-6DC909728D35}</ProjectGuid>
+    <ProjectGuid>{3B98B9C1-CA40-48D7-845F-DE500AF95F26}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Collections</RootNamespace>
-    <AssemblyName>Collections</AssemblyName>
+    <RootNamespace>Methods</RootNamespace>
+    <AssemblyName>Methods</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="sales_data_sample.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

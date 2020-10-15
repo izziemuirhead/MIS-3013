@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace Collections
     {
         static void Main(string[] args)
         {
-            string filePath = @"";
+            string filePath = @"sales_data_sample.csv";
 
             string[] linesOfFile = File.ReadAllLines(filePath);
             int i = 0;
