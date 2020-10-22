@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingCSVFile", "Proces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingCSVFile2", "ProcessingCSVFile2\ProcessingCSVFile2.csproj", "{1D6BC54B-B3AE-439B-8245-A13D32268B43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMethod", "SimpleMethod\SimpleMethod.csproj", "{B146F5C0-B442-44D7-876F-9DD7670F6D6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{1D6BC54B-B3AE-439B-8245-A13D32268B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D6BC54B-B3AE-439B-8245-A13D32268B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D6BC54B-B3AE-439B-8245-A13D32268B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B146F5C0-B442-44D7-876F-9DD7670F6D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B146F5C0-B442-44D7-876F-9DD7670F6D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B146F5C0-B442-44D7-876F-9DD7670F6D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B146F5C0-B442-44D7-876F-9DD7670F6D6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
