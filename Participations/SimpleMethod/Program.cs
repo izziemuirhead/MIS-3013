@@ -21,19 +21,19 @@ namespace SimpleMethod
             Console.ReadKey();
         }
 
-        static string speak(string animal) // create new method with animal input from the main method
+        static string speak(string animalType) // create new method with animal input from the main method
         {
             string sound = "";
 
-            if (animal == "dog") // assigning animal sounds to each animal
+            if (animalType.ToLower() == "dog") // assigning animal sounds to each animal
             {
                 sound = "woof!";
             }
-            else if (animal == "monkey")
+            else if (animalType.ToLower() == "monkey")
             {
                 sound = "oo oo ahh ahh!";
             }
-            else if (animal == "goat")
+            else if (animalType.ToLower() == "goat")
             {
                 sound = "behhhhh!";
             }
